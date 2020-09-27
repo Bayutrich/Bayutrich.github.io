@@ -150,7 +150,7 @@
 
 <body>
   <div class="box1">
-    <form action="bayu.php" method="post">
+    <form action="index.php" method="post">
       <table align="center">
         <tr>
           <th colspan="3">
@@ -245,7 +245,7 @@
         alert('Data gagal proses? data ada yang kosong')
       </script><?php
                 ?><script language="javascript">
-        document.location.href = "bayu.php"
+        document.location.href = "index.php"
       </script><?php
               }
               $tanggal = date('dmY');
@@ -316,7 +316,7 @@
         </tr>
         <tr>
           <td colspan="3">
-            <a href="bayu.php">Bersihkan</a>
+            <a href="index.php">Bersihkan</a>
           </td>
         </tr>
       </table>
